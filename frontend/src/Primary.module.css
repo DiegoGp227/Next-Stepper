@@ -1,0 +1,36 @@
+/* .Primary {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 51px 0px 0px 40px;
+}
+
+.Primary > :first-child {
+  justify-content: flex-start; 
+}
+
+.Primary > :not(:first-child) {
+  justify-content:space-around; 
+}
+
+.ChartsDIv {
+  margin-top: 20px;
+} */
+.Primary {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  margin: 51px 0px 0px 40px;
+}
+
+.Primary > :nth-child(2) {
+  margin-right: auto; 
+}
+
+
+.ChartsDIv {
+    margin-top: 20px; 
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #292c32;
+}

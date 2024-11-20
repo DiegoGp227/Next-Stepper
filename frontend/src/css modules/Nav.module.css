@@ -1,0 +1,35 @@
+.nav {
+  height: 50px;
+  width: 97%;
+  top: 0;
+  right: 0;
+  background-color: #081028;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #292c32;  
+}
+
+.links {
+  display: flex;
+  margin-left: 25px;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+
+.ul li {
+    cursor: pointer;
+}
+
+.ul li:hover {
+    color: aqua;
+}
+.divImgPagina img {
+    margin: 3px 15px 0px 0px;
+    height: 40px;
+}

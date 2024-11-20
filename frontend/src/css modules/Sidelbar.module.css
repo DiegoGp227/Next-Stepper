@@ -1,0 +1,63 @@
+.Sidelbar {
+  height: 100%;
+  width: 3%;
+  min-width: 40px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #081028;
+  border-right: 1px solid #292c32;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.homeImg{
+  transition: 1s ease-in-out;
+}
+
+.homeImg:hover{
+  content: url("../assets/svg/home hover logo.svg");
+}
+
+.projectsImg:hover{
+  content: url("../assets/svg/projects hover logo.svg");
+}
+
+.newImg:hover{
+  content: url("../assets/svg/new hover logo.svg");
+}
+
+.divImgProfile img {
+  width: 80%;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.divImgProfile{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  border-style: none;
+}
+.relleno {
+  height: 80px;
+}
