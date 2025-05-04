@@ -1,0 +1,9 @@
+.inputShearch {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200;
+    background-color: var(--background-color);
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}

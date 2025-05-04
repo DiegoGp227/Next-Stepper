@@ -1,0 +1,78 @@
+{
+  "categories": [
+    { "id": 1, "name": "Programación" },
+    { "id": 2, "name": "Estudio" },
+    { "id": 3, "name": "Salud" },
+    { "id": 4, "name": "Personal" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Estudiar inglés mucho",
+      "description": "30 minutos diarios con Duolingo",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Leer libro de historia",
+      "description": "Leer 10 páginas al día, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora, similique quas accusantium exercitationem soluta maxime voluptates vitae molestiae? Repellendus pariatur ab consequatur dolor eius fugit nihil iste laborum excepturi.",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "title": "Crear portafolio web",
+      "description": "Usar React y Tailwind para construirlo, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora, similique quas accusantium exercitationem soluta maxime voluptates vitae molestiae? Repellendus pariatur ab consequatur dolor eius fugit nihil iste laborum excepturi.",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "title": "Hacer app de tareas",
+      "description": "CRUD con TypeScript, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora, similique quas accusantium exercitationem soluta maxime voluptates vitae molestiae? Repellendus pariatur ab consequatur dolor eius fugit nihil iste laborum excepturi.",
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "title": "Salir a caminar 3 veces por semana",
+      "description": "Mejorar salud física y mental,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora, similique quas accusantium exercitationem soluta maxime voluptates vitae molestiae? Repellendus pariatur ab consequatur dolor eius fugit nihil iste laborum excepturi.",
+      "categoryId": 3
+    },
+    {
+      "id": 6,
+      "title": "Dormir 8 horas diarias",
+      "description": "Acostarse antes de las 11pm, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora, similique quas accusantium exercitationem soluta maxime voluptates vitae molestiae? Repellendus pariatur ab consequatur dolor eius fugit nihil iste laborum excepturi.",
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "title": "Dormir 8 horas diarias",
+      "description": "Acostarse antes de las 11pm, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas tempora, similique quas accusantium exercitationem soluta maxime voluptates vitae molestiae? Repellendus pariatur ab consequatur dolor eius fugit nihil iste laborum excepturi.",
+      "categoryId": 3
+    }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "title": "Registrar progreso en Duolingo",
+      "status": "to do",
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "title": "Esto es un ejemplo",
+      "status": "to do",
+      "projectId": 1
+    },
+    {
+      "id": 3,
+      "title": "Practicar listening",
+      "status": "on progress",
+      "projectId": 1
+    },
+    {
+      "id": 4,
+      "title": "Revisar vocabulario nuevo",
+      "status": "done",
+      "projectId": 1
+    }
+  ]
+}

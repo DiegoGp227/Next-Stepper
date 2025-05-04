@@ -1,0 +1,7 @@
+.divTask {
+    display: flex;
+}
+
+.cardProject {
+    background-color: var(--burbujas);
+}

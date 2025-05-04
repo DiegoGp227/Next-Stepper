@@ -1,0 +1,44 @@
+.nav {
+    width: 100%;
+}
+
+
+.navlink {
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li img {
+    width: 70%;
+    margin: 10px 0 10px 0px;
+    padding: 3px;
+    transition: 0.5s;
+}
+
+.nav ul li img:hover {
+    background-color: #28303a;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: var(--burbujas);
+}
+
+.active .icons{
+    color: var(--buttons-color);
+    background-color: var(--burbujas);
+}
+
+.icons {
+    height: 25px;
+    width: 25px;
+    color: var(--text-opaque);
+    padding: 4px;
+    margin: 7px 0px;
+    border-radius: 5px;
+}
+
+.icons:hover {
+    color: var(--buttons-color);
+    background-color: var(--burbujas);
+}

@@ -1,0 +1,13 @@
+.taskContainer {
+    width: 300px;
+    margin: 15px;
+    border: solid 1px white;
+}
+
+.tittleSecction {
+    color: var(--text-clear);
+}
+
+.taskNumber {
+    color: greenyellow;
+}

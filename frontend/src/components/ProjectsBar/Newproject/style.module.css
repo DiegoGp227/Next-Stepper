@@ -1,0 +1,18 @@
+.divButtonNew {
+    margin-left: 15px;
+}
+
+.buttonNew {
+    padding: 5px 8px;
+    margin-top: 10px;
+    background-color: var(--buttons-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--transition-time);
+}
+
+.buttonNew:hover {
+    background-color: #00f7ff;
+    scale: 1.2;
+}

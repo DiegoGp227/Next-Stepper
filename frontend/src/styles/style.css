@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+:root {
+  --background-color: #0c1b3b;
+  --buttons-color: #00d5ff;
+  --font-primary-color: #deefff;
+
+  --border-color:#f0f8ff50;
+
+  --text-clear: #c8d9eb;
+  --text-opaque: #709ee4;
+  --burbujas: #112343;
+  --burbujas-hover: #172a4b;
+
+
+  --transition-time: 1s;
+}
