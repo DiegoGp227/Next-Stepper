@@ -6,8 +6,12 @@ const corsConfiguration = {
     credentials: true, 
 };
 
+const app = express()
+
 app.use(cors(corsConfiguration))
 app.use(express.json())
 
 const PORT = 3000 
-app.listen(PORT)
+app.listen(PORT);
+
+console.log("backend listend on port" + PORT)
